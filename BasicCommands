@@ -1,0 +1,30 @@
+Basic Commands:-
+
+#kubectl get pods
+#kubectl create pod -f pod.yml
+#kubectl describe pod college
+#kubectl get nodes
+#kubectl get pods -o wide
+#kubectl exec -it college bash
+#kubectl exec -it college -c <container id> bash
+
+#kubectl create -f rc.yml
+#kubectl get rc
+#kubectl scale rc college --replicas=5   
+#kubectl edit rc college
+#kubectl get pods -l lable=college 
+#kubectl delete -f rc.yml
+
+#kubectl create namespace <namepace-name>
+
+#kubectl create -f deployment.yml
+#kubectl get deployment -n <namespace>
+#kubectl get pods -n <namespace>
+#kubectl rollout status deployment college
+#kubectl get rs
+#kubectl delete -f deployment.yml
+
+#kubectl create -f nodeport.yml
+#kubectl get svc -n <namespace>
+#kubectl describe svc <service-name> -n <namespace>
+#kubectl delete -f nodeport.yml
