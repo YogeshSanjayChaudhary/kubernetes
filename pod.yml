@@ -1,0 +1,11 @@
+apiVersion: v1 
+kind: Pod
+metadata:
+  name: college
+  labels:
+    env: college
+spec:
+  containers:
+  - name: college
+    image: yogeshchaudhary/college
+    imagePullPolicy: IfNotPresent
