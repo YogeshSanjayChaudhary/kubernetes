@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+metadata:
+  namespace: college
+  name: my-service-lb
+spec:
+  selector:
+    app: college-web
+  type: LoadBalancer
+  ports:
+  - nodePort: 31000
+    port: 80
+    targetPort: 80
