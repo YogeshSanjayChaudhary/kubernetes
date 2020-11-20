@@ -15,7 +15,9 @@ Basic Commands:-
 #kubectl get pods -l lable=college 
 #kubectl delete -f rc.yml
 
+#kubectl get all namespaces
 #kubectl create namespace <namepace-name>
+#kubectl delete namespace <namespace-name>
 
 #kubectl create -f deployment.yml
 #kubectl get deployment -n <namespace>
