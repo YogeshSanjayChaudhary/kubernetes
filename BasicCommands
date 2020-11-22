@@ -38,3 +38,4 @@ Basic Commands:-
 
 #kubectl get pvc
 #kubectl create -f pvc-hostpath.yml
+#kubectl delete pvc <pvc-name>
