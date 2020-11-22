@@ -31,3 +31,7 @@ Basic Commands:-
 #kubectl get svc -n <namespace>
 #kubectl describe svc <service-name> -n <namespace>
 #kubectl delete -f nodeport.yml
+
+#kubectl get pv
+#kubectl create -f pv-hostpath.yml
+
