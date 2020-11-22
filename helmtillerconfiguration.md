@@ -27,3 +27,21 @@ Verify Now on Kubernetes Master Node
 # kubectl get pods -n kube-system
 
 # kubectl get deployment -n kube-system
+
+Create Helm Chart
+
+Goto Helm Client and Execute below Commands
+
+# mkdir mychart
+
+# helm create college
+
+# helm repo list
+
+# helm install chartname --name <name of deployment> --namespace <namespace>
+
+# helm --install upgrade chartname --name --namespace
+
+# helm list
+
+# helm delete chartname --purge
