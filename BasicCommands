@@ -7,6 +7,7 @@ Basic Commands:-
 #kubectl get pods -o wide
 #kubectl exec -it college bash
 #kubectl exec -it college -c <container id> bash
+#kubectl logs <pod-name>
 
 #kubectl create -f rc.yml
 #kubectl get rc
