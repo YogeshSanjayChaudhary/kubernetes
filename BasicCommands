@@ -24,6 +24,7 @@ Basic Commands:-
 #kubectl get deployment -n <namespace>
 #kubectl get pods -n <namespace>
 #kubectl rollout status deployment college
+#kubectl scale deployment college --replicas=5
 #kubectl get rs
 #kubectl delete -f deployment.yml
 
@@ -39,3 +40,5 @@ Basic Commands:-
 #kubectl get pvc
 #kubectl create -f pvc-hostpath.yml
 #kubectl delete pvc <pvc-name>
+
+#kubectl describe node <node-name>
